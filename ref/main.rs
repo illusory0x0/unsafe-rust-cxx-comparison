@@ -6,5 +6,5 @@ fn main() {
   } ;
   println!("x: {}",x);
   println!("rx: {}",rx);
-  println!("rx: {}",unsafe { *px });
+  println!("px: {}",unsafe { *px });
 }
